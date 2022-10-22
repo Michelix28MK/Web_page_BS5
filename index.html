@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -20,15 +20,24 @@
     <!-- MDB -->
     <link rel="stylesheet" href="css/mdb.min.css" />
   </head>
-  <body>
+  <body style="background-color:#332d2d;">
     <!-- Start your project here-->
+
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-lg-top">
       <!-- Container wrapper -->
       <div class="container-fluid">
 
         <!-- Navbar brand -->
-        <a class="navbar-brand" href="#">Miche Folci</a>
+        <a class="navbar-brand" href="#">
+          <img
+          src="img/Michele_profile_picture.png"
+          height="45"
+          alt="MDB Logo"
+          loading="lazy"
+          />
+          Miche Folci
+        </a>
 
         <!-- Toggle button -->
         <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,24 +50,32 @@
 
             <!-- Link -->
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="Presentazione.html">Chi sono?</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Progetti in corso</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contatti</a>
             </li>
 
             <!-- Dropdown -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-                Dropdown
+                Altro
               </a>
               <!-- Dropdown menu -->
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Certificazioni</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Esperienze lavorative</a>
                 </li>
                 <li>
-                  <hr class="dropdown-divider" />
+                  <hr class="dropdown-divider disabled" />
                 </li>
                 <li>
                   <a class="dropdown-item" href="#">Something else here</a>
@@ -71,10 +88,13 @@
           <!-- Icons -->
           <ul class="navbar-nav d-flex flex-row me-1">
             <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+              <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
             </li>
             <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+              <a class="nav-link" href="#"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="#"><i class="fab fa-youtube"></i></a>
             </li>
           </ul>
 
@@ -82,38 +102,93 @@
       </div>
       <!-- Container wrapper -->
     </nav>
-    <!-- Navbar -->
-
-    <header>
-      <!-- Navbar 
-      <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      </nav> -->
-      <!-- Navbar -->
-    
+    <!--end Navbar -->
+    <header>    
       <!-- Background image -->
       <div
         class="p-5 text-center bg-image"
         style="
-          background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
-          height: 400px;
+          background-image:url('img/background_index.jpg');
+          background-attachment: fixed;
+          height: 750px;
         "
       >
         <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
           <div class="d-flex justify-content-center align-items-center h-100">
             <div class="text-white">
-              <h1 class="mb-3">Heading</h1>
-              <h4 class="mb-3">Subheading</h4>
-              <a class="btn btn-outline-light btn-lg" href="#!" role="button"
-              >Call to action</a
-              >
+              <h1 class="mb-3">Benvenuti sul mio sito!</h1>
+              <p class="mb-4">
+                Ciao, mi chiamo Michele<br> ho 18 anni, ho tanta voglia di fare e sono appassionato di informatica.<br> Ti piacerebbe conoscermi?
+              </p>
+              <a class="btn btn-outline-light btn-lg" href="Presentazione.html" role="button">
+                Mi presento
+              </a>
             </div>
           </div>
         </div>
       </div>
       <!-- Background image -->
     </header>
+    <!--card container-->
+    <div class="d-flex justify-content-center p-5 border-top border-2 border-dark mb-7" style="background-color:#332d2d;">
+      <!--card 1-->
+      <div class="card text-center border border-primary shadow-0 text-white m-2" style="background-color:#332d2d;">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="img/background_projects.jpg" class="img-fluid" />
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+          </a>
+        </div>
+      
+        <div class="card-body">
+          <h5 class="card-title">Progetti in corso</h5>
+          <p class="card-text">
+            Qui puoi trovare la lista aggiornata dei progetti che sto sviluppando.
+          </p>
+      
+          <button type="button" class="btn btn-primary">Visualizza</button>
+        </div>
+      </div>
+      <!--card 2-->
+      <div class="card text-center border border-primary shadow-0 text-white m-2" style="background-color:#332d2d;">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="img/background_work_space_resize.jpg" class="img-fluid"/>
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+          </a>
+        </div>
+      
+        <div class="card-body">
+          <h5 class="card-title">Esperienze lavorative</h5>
+          <p class="card-text">
+            Raccolta dettagliata delle esperienze fatte a livello lavorativo in ordine cronologico
+          </p>
+      
+          <button type="button" class="btn btn-primary">Visualizza</button>
+        </div>
+      </div>
+      <!--Card 3-->
+      <div class="card text-center border border-primary shadow-0 text-white m-2" style="background-color:#332d2d;">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="img/background_project_list_resize.jpg" class="img-fluid" />
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+          </a>
+        </div>
+      
+        <div class="card-body">
+          <h5 class="card-title">Raccolta progetti</h5>
+          <p class="card-text">
+            Raccolta dei progetti terminati recentemente divisi per linguaggio
+          </p>
+      
+          <button type="button" class="btn btn-primary">Visualizza</button>
+        </div>
+      </div>
+    </div>
+    <!--end card container-->
 
-    <footer class="bg-dark text-center text-white fixed-bottom">
+    <footer class="bg-dark text-center text-white">
       <!-- Grid container -->
       <div class="container p-4 pb-0">
         <!-- Section: Social media -->
@@ -181,9 +256,9 @@
         <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
       </div>
       <!-- Copyright -->
-    </footer>    
+    </footer>
+        
     <!-- End your project here-->
-
     <!-- MDB -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Custom scripts -->

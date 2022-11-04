@@ -20,7 +20,11 @@
     <!-- MDB -->
     <link rel="stylesheet" href="css/mdb.min.css" />
   </head>
-  <body style="background-color:#332d2d;">
+  <body style="
+            background-image:url('img/background_index.jpg');
+            background-attachment: fixed;
+            background-size: cover;"
+            >
     <!-- Start your project here-->
 
     <!-- Navbar -->
@@ -105,20 +109,21 @@
     <!--end Navbar -->
     <header>    
       <!-- Background image -->
+      <!--background-image:url('img/background_index.jpg');-->
       <div
         class="p-5 text-center bg-image"
         style="
-          background-image:url('img/background_index.jpg');
+          background-color: transparent;
           background-attachment: fixed;
-          height: 650px;
+          height: 450px;
         "
       >
         <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
           <div class="d-flex justify-content-center align-items-center h-100">
             <div class="text-white">
               <h1 class="mb-3">Benvenuti sul mio sito!</h1>
-              <p class="mb-4">
-                Ciao, mi chiamo Michele<br> ho 18 anni, ho tanta voglia di fare e sono appassionato di informatica.<br> Ti piacerebbe conoscermi?
+              <b class="mb-4">
+                Ciao, mi chiamo <i>Michele</i>.<br> Ho <i>18 anni</i> , sono appassionato di <i>informatica</i> e  ho tanta di <i>fare</i>.<br> Ti piacerebbe conoscermi?
               </p>
               <a class="btn btn-outline-light btn-lg" href="Presentazione.html" role="button">
                 Mi presento
@@ -130,9 +135,9 @@
       <!-- Background image -->
     </header>
     <!--card container-->
-    <div class="d-flex justify-content-center p-5 border-top border-2 border-dark mb-7" style="background-color:#332d2d;">
+    <div class="d-flex justify-content-center border border-1 border-dark rounded-3" style="background-color:#332d2d;">
       <!--card 1-->
-      <div class="card text-center border border-primary shadow-0 text-white m-2" style="background-color:#332d2d;">
+      <div class="card text-center border border-primary shadow-0 text-white d-flex m-2 justify-content-center align-items-center h-100" style="background-color:#332d2d;">
         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
           <img src="img/background_projects.jpg" class="img-fluid" />
           <a href="#!">
@@ -150,7 +155,7 @@
         </div>
       </div>
       <!--card 2-->
-      <div class="card text-center border border-primary shadow-0 text-white m-2" style="background-color:#332d2d;">
+      <div class="card text-center border border-primary shadow-0 text-white d-flex m-2 justify-content-center align-items-center h-100" style="background-color:#332d2d;">
         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
           <img src="img/background_work_space_resize.jpg" class="img-fluid"/>
           <a href="#!">
@@ -168,7 +173,7 @@
         </div>
       </div>
       <!--Card 3-->
-      <div class="card text-center border border-primary shadow-0 text-white m-2" style="background-color:#332d2d;">
+      <div class="card text-center border border-primary shadow-0 text-white d-flex m-2 justify-content-center align-items-center h-100" style="background-color:#332d2d;">
         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
           <img src="img/background_project_list_resize.jpg" class="img-fluid" />
           <a href="#!">
@@ -188,7 +193,7 @@
     </div>
     <!--end card container-->
 
-    <footer class="bg-dark text-center text-white">
+    <footer class="bg-dark text-center text-white fixed-bottom">
       <!-- Grid container -->
       <div class="container p-4 pb-0">
         <!-- Section: Social media -->

@@ -37,7 +37,7 @@
           <img
           src="img/Michele_profile_picture.png"
           height="45"
-          alt="MDB Logo"
+          alt="Logo"
           loading="lazy"
           />
           Miche Folci
@@ -54,15 +54,19 @@
 
             <!-- Link -->
             <li class="nav-item">
-              <a class="nav-link" href="Presentazione.html">Chi sono?</a>
+              <a class="nav-link" href="who_am_i.html">Chi sono</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Progetti in corso</a>
+              <a class="nav-link" href="what_do_i_share.html">Cosa ho imparato</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Contatti</a>
+              <a class="nav-link" href="what_do_i_do.html">Cosa faccio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="where_to_contact_me.html">Contatti</a>
             </li>
 
             <!-- Dropdown -->
@@ -73,16 +77,22 @@
               <!-- Dropdown menu -->
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a class="dropdown-item" href="#">Certificazioni</a>
+                  <a class="dropdown-item" href="#">Certificazioni e titoli di studio</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">Esperienze lavorative</a>
+                  <a class="dropdown-item" href="#">Progetti completati</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Strumenti utilizzati</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Linguaggi conosciti</a>
                 </li>
                 <li>
                   <hr class="dropdown-divider disabled" />
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Curriculum</a>
                 </li>
               </ul>
             </li>
@@ -97,47 +107,43 @@
             <li class="nav-item me-3 me-lg-0">
               <a class="nav-link" href="#"><i class="fab fa-github"></i></a>
             </li>
+            <!-- non ancora creato!
             <li class="nav-item me-3 me-lg-0">
               <a class="nav-link" href="#"><i class="fab fa-youtube"></i></a>
             </li>
+            -->
           </ul>
 
         </div>
       </div>
       <!-- Container wrapper -->
     </nav>
-    <!--end Navbar -->
-    <header>    
-      <!-- Background image -->
-      <!--background-image:url('img/background_index.jpg');-->
-      <div
-        class="p-5 text-center bg-image"
-        style="
-          background-color: transparent;
-          background-attachment: fixed;
-          height: 450px;
-        "
-      >
-        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-          <div class="d-flex justify-content-center align-items-center h-100">
-            <div class="text-white">
-              <h1 class="mb-3">Benvenuti sul mio sito!</h1>
-              <b class="mb-4">
-                Ciao, mi chiamo <i>Michele</i>.<br> Ho <i>18 anni</i> , sono appassionato di <i>informatica</i> e  ho tanta di <i>fare</i>.<br> Ti piacerebbe conoscermi?
-              </p>
-              <a class="btn btn-outline-light btn-lg" href="Presentazione.html" role="button">
-                Mi presento
-              </a>
-            </div>
+    <!--end Navbar -->      
+    <header
+      class="p-2 text-center bg-image"
+      style="
+        background-color: transparent;
+        height: 450px;
+      "
+    >
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white">
+            <h1 class="mb-3">Mi chiamo Michele</h1>
+            <p class="mb-4">
+              Ho 18 anni e vivo a Caratebrianza (MB). Attualmente frequento l'<a href="http://www.https://www.leviseregno.edu.it/">I.T.S.C.G Primo Levi</a> corso scienze applicate.<br> Ho una forte passione per l'informatica e ho tanta voglia di fare e imparare cose nuove.<br> In futuro vorrei diventar un programmatore e al termine di questo corso di studi punto ad entrare a fare parte del <a href="http://www.itsrizzoli.it">ITS Angelo Rizzoli</a>
+            </p>
+            <a class="btn btn-outline-light btn-lg" href="who_am_i.html" role="button">
+              Scopri dipiù
+            </a>
           </div>
         </div>
       </div>
-      <!-- Background image -->
     </header>
     <!--card container-->
-    <div class="d-flex justify-content-center border border-1 border-dark rounded-3" style="background-color:#332d2d;">
+    <div class="d-flex justify-content-evenly pb-4" style="background-color: rgba(0, 0, 0, 0.6);">
       <!--card 1-->
-      <div class="card text-center border border-primary shadow-0 text-white d-flex m-2 justify-content-center align-items-center h-100" style="background-color:#332d2d;">
+      <div class="card text-center text-white d-flex justify-content-center align-items-center h-100" style="background-color:#332d2d;">
         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
           <img src="img/background_projects.jpg" class="img-fluid" />
           <a href="#!">
@@ -155,7 +161,7 @@
         </div>
       </div>
       <!--card 2-->
-      <div class="card text-center border border-primary shadow-0 text-white d-flex m-2 justify-content-center align-items-center h-100" style="background-color:#332d2d;">
+      <div class="card text-center text-white d-flex justify-content-center align-items-center h-100" style="background-color:#332d2d;">
         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
           <img src="img/background_work_space_resize.jpg" class="img-fluid"/>
           <a href="#!">
@@ -173,7 +179,7 @@
         </div>
       </div>
       <!--Card 3-->
-      <div class="card text-center border border-primary shadow-0 text-white d-flex m-2 justify-content-center align-items-center h-100" style="background-color:#332d2d;">
+      <div class="card text-center text-white d-flex justify-content-center align-items-center h-100" style="background-color:#332d2d;">
         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
           <img src="img/background_project_list_resize.jpg" class="img-fluid" />
           <a href="#!">
@@ -193,12 +199,12 @@
     </div>
     <!--end card container-->
 
-    <footer class="bg-dark text-center text-white fixed-bottom">
+    <footer class="bg-dark text-center text-white"> <!--'fixed-bottom'-->
       <!-- Grid container -->
       <div class="container p-4 pb-0">
         <!-- Section: Social media -->
         <section class="mb-4">
-          <!-- Facebook -->
+          <!-- Facebook 
           <a
             class="btn text-white btn-floating m-1"
             style="background-color: #3b5998;"
@@ -206,6 +212,7 @@
             role="button"
             ><i class="fab fa-facebook-f"></i
           ></a>
+          -->
     
           <!-- Twitter -->
           <a
@@ -257,12 +264,10 @@
     
       <!-- Copyright -->
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2020 Copyright:
-        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        Made by Michelix28Mk x MDB5
       </div>
       <!-- Copyright -->
-    </footer>
-        
+    </footer> 
     <!-- End your project here-->
     <!-- MDB -->
     <script type="text/javascript" src="js/mdb.min.js"></script>

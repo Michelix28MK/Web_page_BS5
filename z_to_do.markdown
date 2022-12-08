@@ -13,3 +13,5 @@
 - **where_to_contact_me:** lista dei recapiti con immagini grandi. Pagina semplice e chiara. (utilizzo di form o di recapiti con link e social utilizzati).
 
 ## To do:
+
+    - Collegare le pagine alle cards e sviluppo della pagina anagrafica personale.
